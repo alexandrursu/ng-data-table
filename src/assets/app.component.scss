@@ -1,0 +1,9 @@
+@import '~@progress/kendo-theme-material/scss/all';
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.k-filtercell-operator {
+  display: none !important;
+}
