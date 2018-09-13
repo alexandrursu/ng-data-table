@@ -17,3 +17,18 @@ span.k-icon[aria-label="Sortable"]:after {
 .k-grid-header .k-i-sort-asc-sm, .k-grid-header .k-i-sort-desc-sm, .k-grid-header .k-sort-order {
     color: #ff007f;
 }
+
+.k-grid-header .k-header>.k-link>.k-icon.k-i-sort-asc-sm {
+    vertical-align: text-top;
+    font-size: 15px;
+    margin-top: 2px;
+    margin-left:0;
+}
+
+
+.k-grid-header .k-header>.k-link>.k-icon.k-i-sort-desc-sm {
+    vertical-align: text-top;
+    font-size: 15px;
+    margin-top: 2px;
+    margin-left: 0px;
+}
