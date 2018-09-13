@@ -1,6 +1,6 @@
 # UX improved Ng Data Tables: 
 
-You can access live [DEMO here](https://alexandrursu.github.io/rate-your-dish/):
+You can access live [DEMO here](https://alexandrursu.github.io/ng-data-table/):
 
 Description:
 Good data tables allow users to scan, analyze, compare, filter, sort, and manipulate information
