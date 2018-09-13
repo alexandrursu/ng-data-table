@@ -2,7 +2,7 @@
 
 You can access live [DEMO here](https://alexandrursu.github.io/ng-data-table/):
 
-My thoughts:
+#My thoughts:
 In order to generate an efficient design solution I decided to start from understanding what is the user even trying to do on a table? I eventually concluded that there are 3 core user goals with tables:
 
 1. To browse easy lots of info at once.
