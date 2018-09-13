@@ -7,21 +7,21 @@ In order to generate an efficient design solution I decided to start from unders
 
 1. To browse easy lots of info at once.
    Solution:
-   a. Added fixed header. Fixing the row header as a user scrolls provides context on what column the user is on.
-   b. Implemented search for Routes Tables as they can have hundreds of pages. 
-   c. Enabled pagination for Routes Tables, it will let us split a huge amount of content within the tables into smaller chunks and keep fixed table height. 
-   d. All tables are sortable.
+   * Added fixed header. Fixing the row header as a user scrolls provides context on what column the user is on.
+   * Implemented search for Routes Tables as they can have hundreds of pages. 
+   * Enabled pagination for Routes Tables, it will let us split a huge amount of content within the tables into smaller chunks and keep fixed table height. 
+   * All tables are sortable.
 2. To determine and execute actions quickly, e.g. editing, removing, adding new rows.
-   a. Made add action more visible and implemented 'Add New Row' button on each table which allows the user to add data without navigating to a separate modal view. I found modal action very confusing.
-   b. Added 'Inline Editing' button which allows us edit already existing data. That helps us save more user actions, from presvious screen user had to delete then add new one to achieve the same result. (OPTIONAL: would be nice to have 'on-row-click' edit, I didn't have time to implement this, but it is feasible)
-   c. Remove action is the same.
+   * Made add action more visible and implemented 'Add New Row' button on each table which allows the user to add data without navigating to a separate modal view. I found modal action very confusing.
+   * Added 'Inline Editing' button which allows us edit already existing data. That helps us save more user actions, from presvious screen user had to delete then add new one to achieve the same result. (OPTIONAL: would be nice to have 'on-row-click' edit, I didn't have time to implement this, but it is feasible)
+   * Remove action is the same.
     
 3. To have clean, consistent and modularized design.
-   a. All the tables are in a separate section but still aligned in Dig and Mag columns.
-   b. Used company logo colors for appling gradient to the tables headers, which helps clearly distincs content from headers.
-   c. All the pading kept consistent.
-   d. All the tables are configuarable and reusable.
-   e. All the styles use flexbox (we can add breakpoint to have them wrap let's say on tablet view)
+   * All the tables are in a separate section but still aligned in Dig and Mag columns.
+   * Used company logo colors for appling gradient to the tables headers, which helps clearly distincs content from headers.
+   * All the pading kept consistent.
+   * All the tables are configuarable and reusable.
+   * All the styles use flexbox (we can add breakpoint to have them wrap let's say on tablet view)
 
 
 # NgDataTable
