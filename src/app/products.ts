@@ -41,6 +41,31 @@ export const routes = [
     'DestinationIP': '10.54.1.1',
     'Gateway': '0.0.0.0',
     'SubnetMask': '255.255.255.0',
+  },{
+    'ProductID': 9,
+    'DestinationIP': '10.54.1.1',
+    'Gateway': '0.0.0.0',
+    'SubnetMask': '255.255.255.0',
+  }, {
+    'ProductID': 10,
+    'DestinationIP': '0.0.0.0',
+    'Gateway': '10.54.1.1',
+    'SubnetMask': '0.0.0.0',
+  }, {
+    'ProductID': 11,
+    'DestinationIP': '10.54.1.1',
+    'Gateway': '0.0.0.0',
+    'SubnetMask': '255.255.255.0',
+  }, {
+    'ProductID': 17,
+    'DestinationIP': '0.0.0.0',
+    'Gateway': '10.54.1.1',
+    'SubnetMask': '0.0.0.0',
+  }, {
+    'ProductID': 18,
+    'DestinationIP': '10.54.1.1',
+    'Gateway': '0.0.0.0',
+    'SubnetMask': '255.255.255.0',
   }
 ];
 

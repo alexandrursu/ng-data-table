@@ -1,9 +1,0 @@
-.container {
-  display: flex;
-  flex: 1;
-}
-
-.k-filtercell .k-filtercell-operator {
-  margin-left: 4px;
-  display: none;
-}

@@ -1,9 +1,14 @@
-@import '~@progress/kendo-theme-material/scss/all';
+@import '~@progress/kendo-theme-default/scss/all';
 .container {
   display: flex;
   flex: 1;
 }
 
-.k-filtercell-operator {
+.k-filtercell .k-filtercell-operator {
+  margin-left: 4px;
   display: none !important;
+}
+
+span.k-i-filter.k-icon {
+  display: none;
 }
