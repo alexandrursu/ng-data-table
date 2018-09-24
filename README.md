@@ -19,7 +19,7 @@ In order to generate an efficient design solution I decided to start from unders
 3. To have clean, consistent and modularized design.
    * All the tables are in a separate section but still aligned in Dig and Mag columns.
    * Used company logo colors for appling gradient to the tables headers, which helps clearly distincs content from headers.
-   * All the pading kept consistent.
+   * All the paddings kept consistent.
    * All the tables are configuarable and reusable.
    * All the styles use flexbox (we can add breakpoint to have them wrap let's say on tablet view)
 
